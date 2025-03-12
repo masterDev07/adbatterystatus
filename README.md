@@ -1,4 +1,3 @@
-```markdown
 # ADBatteryStatus 🚀
 
 **ADBatteryStatus** is a unique battery alarm application designed for Android
@@ -44,10 +43,10 @@ systems, making it a versatile tool for users.
    */5 * * * * ~/Music/alarm/adbatterystatus 30 98 your_ip:5555 43
    ```
 
-Crontab will run batmeter99 every 5 minutes. The purpose of this crontab 
-scriptis so that the batmeter can provide an alarm when the android battery 
-needs to be charged or needs to be removed from the charger when it has reached 
-the maximum level of charging the android battery.
+Crontab will run ADBatteryStatus every 5 minutes. The purpose of this crontab 
+scriptis so that the ADBatteryStatus can provide an alarm when the android 
+battery needs to be charged or needs to be removed from the charger when it has 
+reached the maximum level of charging the android battery.
 
 ## Usage 📖
 
@@ -68,6 +67,7 @@ using the following command:
 
 ```bash
 chmod +x adbatterystatus
+```
 
 This command grants execute permissions to the file. To enable audio alarms on 
 the Android device, two audio files—needcharged.ogg and releasecable.ogg—must be 
@@ -94,7 +94,7 @@ when the Android device's battery needs charging.
 
 ## Contributing 🤝
 
-We welcome contributions! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+We welcome contributions! If you have suggestions or improvements.
 
 ## License 📄
 
@@ -109,4 +109,3 @@ For any inquiries, please reach out to [duitmoro@yahoo.com](mailto:duitmoro@yaho
 
 Thank you for checking out ADBatteryStatus! We hope it enhances your Android 
 experience on Linux! 🎉
-```
