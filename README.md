@@ -1,9 +1,9 @@
 # ADBatteryStatus 🚀
 
 **ADBatteryStatus** is a unique battery alarm application designed for Android
-that runs seamlessly on Linux. Unlike typical battery alarm apps that operate 
-solely on Android devices, ADBatteryStatus offers a smooth experience on Linux 
-systems, making it a versatile tool for users.
+that runs seamlessly on Linux and use ADB. Unlike typical battery alarm apps 
+that operate solely on Android devices, ADBatteryStatus offers a smooth 
+experience on Linux systems, making it a versatile tool for users.
 
 ## Features 🌟
 
@@ -29,7 +29,8 @@ systems, making it a versatile tool for users.
 
 ## Installation 🛠️
 
-1. **Download the ADBatteryStatus file** and extract it to the `~/Music/alarm` directory.
+1. **Clone the ADBatteryStatus repository**, move to the `~/Music` directory. 
+   Then adbatterystatus directory rename to `alarm` now will be `~/Music/alarm`.
 2. **Set permissions** to execute the file:
    ```bash
    chmod +x adbatterystatus
@@ -90,7 +91,7 @@ when the Android device's battery needs charging.
 - `amixer`
 - Desktop Environment: `xfce`
 - `mpg123`
-- `ogg123`
+- `vorbis-tools`
 
 ## Contributing 🤝
 
